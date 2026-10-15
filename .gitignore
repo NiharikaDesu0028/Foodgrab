@@ -1,30 +1,7 @@
-# Environment variables
-.env
-.env.local
-backend/.env
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
 venv/
-backend/venv/
-backend/*.db
-instance/
-backend/instance/
-*.db
-*.sqlite3
-
-# Node / Frontend
+backend/.env
+.env
+__pycache__/
+*.pyc
 node_modules/
-frontend/node_modules/
-frontend/dist/
-dist/
-.npm
-.vite
-
-# OS & Editors
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+*.db
